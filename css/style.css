@@ -1,0 +1,52 @@
+/* Reset style  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800&display=swap');
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+/* Common style */
+.container {
+    width: 75%;
+    max-width: 144rem;
+    margin: 0 auto;
+}
+h3 {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+/* Header Design  */
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav h3 a {
+    text-decoration: none;
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+nav ul a {
+    display: block;
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    transition: .3s ease;
+}
+nav ul a:hover {
+    color: #000;
+}
