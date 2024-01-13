@@ -12,6 +12,9 @@
     max-width: 144rem;
     margin: 0 auto;
 }
+section {
+    padding: 10rem;
+}
 h3 {
     color: #131313;
     font-size: 4rem;
@@ -86,4 +89,35 @@ nav ul a:hover {
 }
 .hero-image img {
     width: 100%;
+}
+
+/* Quick feature section  */
+.quick-feature-contents {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.quick-gellary {
+    flex-basis: 48%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.quick-gellary img {
+    width: 100%;
+}
+.quick-detail {
+    flex-basis: 48%;
+}
+.quick-detail h3, p {
+    margin-bottom: 1.5rem;
+}
+
+.quick-detail .first {
+    font-size: 4rem;
+    color: #727272;
+}
+.quick-detail .last {
+    font-size: 4rem;
+    color: #FF900E;
 }
