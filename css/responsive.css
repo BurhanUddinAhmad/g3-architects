@@ -1,0 +1,25 @@
+/* For small devices  */
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .hero-contents {
+        max-width: 100%;
+    }
+}
+
+/* For Medium devices */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .hero-contents {
+        max-width: 100%;
+    }
+}

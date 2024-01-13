@@ -17,9 +17,30 @@ h3 {
     font-size: 4rem;
     font-weight: 700;
 }
+p {
+    font-size: 1.6rem;
+    color: #727272;
+    line-height: 2.6rem;
+}
+.btn {
+    display: block;
+    background: #FF900E;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    border: none;
+    transition: .3s ease;
+}
+.btn:hover {
+    cursor: pointer;
+    background: #d17307;
+}
+
 /* Header Design  */
 header {
     background: rgba(255, 144, 14, 0.10);
+    padding-bottom: 2rem;
 }
 nav {
     display: flex;
@@ -49,4 +70,20 @@ nav ul a {
 }
 nav ul a:hover {
     color: #000;
+}
+/* Hero section  */
+.hero-contents {
+    max-width: 60%;
+    margin: 3rem auto;
+    text-align: center;
+}
+.hero-contents h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+.hero-contents .btn {
+    margin: 1rem auto;
+}
+.hero-image img {
+    width: 100%;
 }
