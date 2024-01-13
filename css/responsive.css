@@ -3,7 +3,9 @@
     .container {
         width: 95%;
     }
-    nav {
+    nav,
+    .quick-feature-contents,
+    .feature-contents {
         flex-direction: column;
     }
     .hero-contents {
@@ -16,10 +18,12 @@
     .container {
         width: 95%;
     }
-    nav {
+    nav,
+    .feature-contents {
         flex-direction: column;
     }
     .hero-contents {
         max-width: 100%;
     }
+
 }
