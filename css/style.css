@@ -171,3 +171,34 @@ nav ul a:hover {
     font-size: 1.6rem;
     font-weight: normal;
 }
+
+/* Some facts  */
+.fact-detail {
+    width: 55%;
+    margin-bottom: 5rem;
+}
+.fact-detail h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.fact-contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    text-align: center;
+}
+.single-fact {
+    flex-basis: 20%;
+    border: .1px solid #FF900E;
+    padding: 2rem;
+}
+.single-fact .value {
+    font-size: 3rem;
+    color: #424242;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+.single-fact h5 {
+    font-size: 1.6rem;
+    color: #727272;
+}

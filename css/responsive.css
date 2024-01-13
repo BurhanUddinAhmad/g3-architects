@@ -5,11 +5,16 @@
     }
     nav,
     .quick-feature-contents,
-    .feature-contents {
+    .feature-contents,
+    .fact-contents {
         flex-direction: column;
     }
     .hero-contents {
         max-width: 100%;
+    }
+    .fact-detail {
+        width: 95%;
+        margin-bottom: 5rem;
     }
 }
 
@@ -24,6 +29,11 @@
     }
     .hero-contents {
         max-width: 100%;
+    }
+    .fact-contents {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
     }
 
 }
