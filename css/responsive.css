@@ -1,12 +1,14 @@
 /* For small devices  */
 @media only screen and (max-width: 576px) {
-    .container {
+    .container,
+    .sponsor-detail {
         width: 95%;
     }
     nav,
     .quick-feature-contents,
     .feature-contents,
-    .fact-contents {
+    .fact-contents,
+    .foot-contents {
         flex-direction: column;
     }
     .hero-contents {
@@ -16,6 +18,13 @@
         width: 95%;
         margin-bottom: 5rem;
     }
+    .sponsor-company {
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+        text-align: center;
+    }
+    
 }
 
 /* For Medium devices */

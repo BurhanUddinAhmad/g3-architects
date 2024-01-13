@@ -202,3 +202,38 @@ nav ul a:hover {
     font-size: 1.6rem;
     color: #727272;
 }
+
+/* sponsor section  */
+.sponsor-detail {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsor-detail h3 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.sponsor-company {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.sponsor-company img {
+    width: 10rem;
+}
+
+/* Footer section  */
+
+footer {
+    background: rgba(255, 144, 14, 0.10);
+}
+.foot-contents {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-contents p {
+    font-size: 1.2rem;
+    margin: 0;
+}
